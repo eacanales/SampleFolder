@@ -6,6 +6,7 @@ const clearCompletedBtn = document.getElementById("clearCompletedBtn");
 let tasks = [];
 
 function addTask() {
+    debugger;
     const taskText = taskInput.value.trim();
     if (taskText !== "") {
         tasks.push({ text: taskText});
